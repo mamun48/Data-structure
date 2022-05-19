@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\fibonnaci.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\fibonnaci.dir/objects.a @CMakeFiles\fibonnaci.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\fibonnaci.dir/objects.a -Wl,--no-whole-archive  -o fibonnaci.exe -Wl,--out-implib,libfibonnaci.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\fibonnaci.dir\linklibs.rsp
